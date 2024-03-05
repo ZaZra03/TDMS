@@ -8,18 +8,6 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Remove="Images\close.png" />
-    <None Remove="Images\Email.png" />
-    <None Remove="Images\img_customer.png" />
-    <None Remove="Images\img_home.png" />
-    <None Remove="Images\img_order.png" />
-    <None Remove="Images\img_product.png" />
-    <None Remove="Images\img_setting.png" />
-    <None Remove="Images\img_shipment.png" />
-    <None Remove="Images\img_transaction.png" />
-    <None Remove="Images\Lock.png" />
-  </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Images\close.png">
@@ -28,35 +16,9 @@
     <Resource Include="Images\Email.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Images\img_customer.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\img_home.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\img_order.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\img_product.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\img_setting.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\img_shipment.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Images\img_transaction.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
     <Resource Include="Images\Lock.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Fonts\" />
-    <Folder Include="Source Code\" />
-  </ItemGroup>
-
+	
 </Project>

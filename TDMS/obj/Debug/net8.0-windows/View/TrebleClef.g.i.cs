@@ -53,7 +53,7 @@ namespace TDMS.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/TDMS;component/view/trebleclef.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/TDMS;V1.0.0.0;component/view/trebleclef.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\TrebleClef.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

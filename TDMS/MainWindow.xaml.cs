@@ -49,9 +49,12 @@ namespace TDMS
         {
             if (!string.IsNullOrEmpty(txtEmail.Text) && !string.IsNullOrEmpty(passwordBox.Password))
             {
-                Window1 objWindow = new Window1();
-                this.Visibility = Visibility.Hidden;
-                objWindow.Show();
+                if (txtEmail.Text == "admin" && passwordBox.Password == "admin") {
+                    Window1 objWindow = new Window1();
+                    this.Visibility = Visibility.Hidden;
+                    objWindow.Show();
+                } else MessageBox.Show("No account found.", "Message Box Title", MessageBoxButton.OK, MessageBoxImage.Information);
+
             }
         }
 

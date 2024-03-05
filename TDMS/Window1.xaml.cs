@@ -21,6 +21,7 @@ namespace TDMS
     {
         public Window1()
         {
+            
             InitializeComponent();
         }
     }
