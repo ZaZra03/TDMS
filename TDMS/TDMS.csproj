@@ -10,6 +10,13 @@
 
 
   <ItemGroup>
+	<PackageReference Include="MySql.Data" Version="8.3.0" />
+	<Resource Include="Fonts\Rubik-Medium.ttf">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	</Resource>
+	<Resource Include="Fonts\Rubik-Regular.ttf">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	</Resource>
     <Resource Include="Images\close.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
