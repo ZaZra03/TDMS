@@ -70,3 +70,5 @@ E:\Visual Studio\TDMS\TDMS\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5
 E:\Visual Studio\TDMS\TDMS\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
 E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\TDMS.csproj.AssemblyReference.cache
 E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\TDMS.csproj.Up2Date
+E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\Window2.g.cs
+E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\Window2.baml

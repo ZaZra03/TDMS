@@ -50,8 +50,8 @@ namespace TDMS
             if (!string.IsNullOrEmpty(txtEmail.Text) && !string.IsNullOrEmpty(passwordBox.Password))
             {
                 if (txtEmail.Text == "admin" && passwordBox.Password == "admin") {
-                    Window1 objWindow = new Window1();
-                    this.Visibility = Visibility.Hidden;
+                    Window1 objWindow = new();
+                    this.Close();
                     objWindow.Show();
                 } else MessageBox.Show("No account found.", "Message Box Title", MessageBoxButton.OK, MessageBoxImage.Information);
 

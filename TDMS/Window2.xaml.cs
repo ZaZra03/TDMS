@@ -23,5 +23,11 @@ namespace TDMS
         {
             InitializeComponent();
         }
+        private void MenuOut_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow objWindow = new MainWindow();
+            this.Close();
+            objWindow.Show();
+        }
     }
 }

@@ -35,12 +35,6 @@
                     <Ellipse Margin="250 450 0 0" Width="40" Height="40" Fill="#4EB1B6" />
                     <Ellipse Margin="50 400 0 0" Width="20" Height="20" Fill="#4EB1B6" />
                 </Canvas>
-
-                <StackPanel VerticalAlignment="Center">
-                    <TextBlock Text="Sign Up" Style="{StaticResource TitleText}" />
-                    <TextBlock Text="Enter your personal info" Opacity="0.8" Margin="20 30 20 30" Style="{StaticResource NormalText}" />
-
-                </StackPanel>
             </Grid>
         </Border>
 

@@ -38,23 +38,23 @@
                         <VirtualizingStackPanel Orientation="Vertical"/>
                     </ItemsPanelTemplate>
                 </Menu.ItemsPanel>
-                <MenuItem Header="DASHBOARD" Foreground="White" HorizontalAlignment="Center" Margin="0,10,0,10">
+                <MenuItem Header="DASHBOARD" Foreground="White" HorizontalAlignment="Center">
 
                 </MenuItem>
 
-                <MenuItem Header="JOBS" Foreground="White" HorizontalAlignment="Center" Margin="0,10,0,10">
+                <MenuItem Header="JOBS" Foreground="White" HorizontalAlignment="Center">
 
                 </MenuItem>
 
-                <MenuItem Header="MATERIALS" Foreground="White" HorizontalAlignment="Center" Margin="0,10,0,10">
+                <MenuItem Header="MATERIALS" Foreground="White" HorizontalAlignment="Center">
 
                 </MenuItem>
 
-                <MenuItem Header="EMPLOYEE" Foreground="White" HorizontalAlignment="Center" Margin="0,10,0,10">
+                <MenuItem Header="EMPLOYEE" Foreground="White" HorizontalAlignment="Center">
 
                 </MenuItem>
 
-                <MenuItem Header="SIGN OUT" Foreground="White" HorizontalAlignment="Center" Margin="0,10,0,10">
+                <MenuItem Header="SIGN OUT" Foreground="White" HorizontalAlignment="Center" Click="MenuOut_Click">
 
                 </MenuItem>
 
