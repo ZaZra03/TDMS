@@ -9,11 +9,11 @@
         WindowStyle="None"
         AllowsTransparency="True" 
         Background="Transparent" 
-        Height="500" 
-        Width="800">
+        Height="700" 
+        Width="900">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="1.2*" />
             <ColumnDefinition Width="4*" />
         </Grid.ColumnDefinitions>
 
@@ -25,41 +25,101 @@
                 </LinearGradientBrush>
             </Border.Background>
         </Border>
-        <Border Background="#FFFFFF" Grid.Column="1" CornerRadius="0 10 10 0"/>
 
         <StackPanel Orientation="Vertical">
             <Grid Height="60" VerticalAlignment="Top" Margin="0,30,0,0">
                 <TextBlock Text="LOGO HERE" Foreground="White" FontSize="15" TextWrapping="WrapWithOverflow" TextAlignment="Center" Padding="1,0,1,0" VerticalAlignment="Center"/>
             </Grid>
 
-            <Menu Height="300" Background="Transparent">
+            <Menu Height="250"
+                  Background="Transparent"
+                  Margin="0,70,0,0">
+                
+
                 <Menu.ItemsPanel>
+
                     <ItemsPanelTemplate>
-                        <VirtualizingStackPanel Orientation="Vertical"/>
+
+                        <VirtualizingStackPanel Orientation="Vertical" />
+
                     </ItemsPanelTemplate>
+
                 </Menu.ItemsPanel>
-                <MenuItem Header="DASHBOARD" Foreground="White" HorizontalAlignment="Center">
+
+                <!--// Main Menu - Home //-->
+
+                <MenuItem Header="DASHBOARD"
+                          Template="{StaticResource Menu_Template}">
+
+                    <MenuItem.Icon>
+
+                        <Image Source="Images/home.png"/>
+
+                    </MenuItem.Icon>
 
                 </MenuItem>
 
-                <MenuItem Header="JOBS" Foreground="White" HorizontalAlignment="Center">
+                <!--// Main Menu - Music //-->
+
+                <MenuItem Header="JOBS"
+                          Template="{StaticResource Menu_Template}">
+
+                    <MenuItem.Icon>
+
+                        <Image Source="Images/jobs.png"/>
+
+                    </MenuItem.Icon>
+                </MenuItem>
+
+
+                <!--// Main Menu - Movies //-->
+
+                <MenuItem Header="MATERIALS"
+                          Template="{StaticResource Menu_Template}">
+
+                    <MenuItem.Icon>
+
+                        <Image Source="Images/materials.png"/>
+
+                    </MenuItem.Icon>
 
                 </MenuItem>
 
-                <MenuItem Header="MATERIALS" Foreground="White" HorizontalAlignment="Center">
+                <!--// Main Menu - Search //-->
+
+                <MenuItem Header="EMPLOYEE"
+                          Template="{StaticResource Menu_Template}">
+
+                    <MenuItem.Icon>
+
+                        <Image Source="Images/employee.png"/>
+
+                    </MenuItem.Icon>
 
                 </MenuItem>
 
-                <MenuItem Header="EMPLOYEE" Foreground="White" HorizontalAlignment="Center">
+                <!--// Main Menu - Folders //-->
 
-                </MenuItem>
+                <MenuItem Header="SIGN OUT"
+                          Template="{StaticResource Menu_Template}"
+                          Click="MenuOut_Click">
 
-                <MenuItem Header="SIGN OUT" Foreground="White" HorizontalAlignment="Center" Click="MenuOut_Click">
+                    <MenuItem.Icon>
+
+                        <Image Source="Images/signout.png"/>
+
+                    </MenuItem.Icon>
 
                 </MenuItem>
 
             </Menu>
+
         </StackPanel>
+
+        <Border Background="#FFFFFF" Grid.Column="1" CornerRadius="0 10 10 0">
+
+        </Border>
+
 
     </Grid>
 </Window>

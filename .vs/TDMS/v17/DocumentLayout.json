@@ -1,45 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Visual Studio\\TDMS\\",
+  "WorkspaceRootPath": "D:\\Visual Studio\\TDMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|e:\\visual studio\\tdms\\tdms\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|d:\\visual studio\\tdms\\tdms\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|solutionrelative:tdms\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|e:\\visual studio\\tdms\\tdms\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|d:\\visual studio\\tdms\\tdms\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|solutionrelative:tdms\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|e:\\visual studio\\tdms\\tdms\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|solutionrelative:tdms\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|d:\\visual studio\\tdms\\tdms\\template.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|solutionrelative:tdms\\template.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|e:\\visual studio\\tdms\\tdms\\dal\\mysqldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|solutionrelative:tdms\\dal\\mysqldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|e:\\visual studio\\tdms\\tdms\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|d:\\visual studio\\tdms\\tdms\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|solutionrelative:tdms\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|e:\\visual studio\\tdms\\tdms\\window2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|d:\\visual studio\\tdms\\tdms\\window2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|solutionrelative:tdms\\window2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|e:\\visual studio\\tdms\\tdms\\window2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|solutionrelative:tdms\\window2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|e:\\visual studio\\tdms\\tdms\\tdms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|d:\\visual studio\\tdms\\tdms\\tdms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|solutionrelative:tdms\\tdms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|e:\\visual studio\\tdms\\tdms\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|d:\\visual studio\\tdms\\tdms\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|solutionrelative:tdms\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|d:\\visual studio\\tdms\\tdms\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|solutionrelative:tdms\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|e:\\visual studio\\tdms\\tdms\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|d:\\visual studio\\tdms\\tdms\\dal\\mysqldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|solutionrelative:tdms\\dal\\mysqldb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|d:\\visual studio\\tdms\\tdms\\window2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|solutionrelative:tdms\\window2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|d:\\visual studio\\tdms\\tdms\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|solutionrelative:tdms\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,26 +54,39 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "Template.xaml",
+              "DocumentMoniker": "D:\\Visual Studio\\TDMS\\TDMS\\Template.xaml",
+              "RelativeDocumentMoniker": "TDMS\\Template.xaml",
+              "ToolTip": "D:\\Visual Studio\\TDMS\\TDMS\\Template.xaml",
+              "RelativeToolTip": "TDMS\\Template.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-10T09:52:11.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Window2.xaml",
-              "DocumentMoniker": "E:\\Visual Studio\\TDMS\\TDMS\\Window2.xaml",
+              "DocumentMoniker": "D:\\Visual Studio\\TDMS\\TDMS\\Window2.xaml",
               "RelativeDocumentMoniker": "TDMS\\Window2.xaml",
-              "ToolTip": "E:\\Visual Studio\\TDMS\\TDMS\\Window2.xaml",
+              "ToolTip": "D:\\Visual Studio\\TDMS\\TDMS\\Window2.xaml",
               "RelativeToolTip": "TDMS\\Window2.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-06T00:23:23.144Z"
+              "WhenOpened": "2024-03-06T00:23:23.144Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Window1.xaml.cs",
-              "DocumentMoniker": "E:\\Visual Studio\\TDMS\\TDMS\\Window1.xaml.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\TDMS\\TDMS\\Window1.xaml.cs",
               "RelativeDocumentMoniker": "TDMS\\Window1.xaml.cs",
-              "ToolTip": "E:\\Visual Studio\\TDMS\\TDMS\\Window1.xaml.cs",
+              "ToolTip": "D:\\Visual Studio\\TDMS\\TDMS\\Window1.xaml.cs",
               "RelativeToolTip": "TDMS\\Window1.xaml.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAUwBsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -80,9 +97,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Window1.xaml",
-              "DocumentMoniker": "E:\\Visual Studio\\TDMS\\TDMS\\Window1.xaml",
+              "DocumentMoniker": "D:\\Visual Studio\\TDMS\\TDMS\\Window1.xaml",
               "RelativeDocumentMoniker": "TDMS\\Window1.xaml",
-              "ToolTip": "E:\\Visual Studio\\TDMS\\TDMS\\Window1.xaml",
+              "ToolTip": "D:\\Visual Studio\\TDMS\\TDMS\\Window1.xaml",
               "RelativeToolTip": "TDMS\\Window1.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-03T09:12:47.685Z",
@@ -90,22 +107,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "E:\\Visual Studio\\TDMS\\TDMS\\MainWindow.xaml",
+              "DocumentMoniker": "D:\\Visual Studio\\TDMS\\TDMS\\MainWindow.xaml",
               "RelativeDocumentMoniker": "TDMS\\MainWindow.xaml",
-              "ToolTip": "E:\\Visual Studio\\TDMS\\TDMS\\MainWindow.xaml",
+              "ToolTip": "D:\\Visual Studio\\TDMS\\TDMS\\MainWindow.xaml",
               "RelativeToolTip": "TDMS\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-03T09:16:21.459Z"
+              "WhenOpened": "2024-03-03T09:16:21.459Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "E:\\Visual Studio\\TDMS\\TDMS\\MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\TDMS\\TDMS\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "TDMS\\MainWindow.xaml.cs",
-              "ToolTip": "E:\\Visual Studio\\TDMS\\TDMS\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Visual Studio\\TDMS\\TDMS\\MainWindow.xaml.cs",
               "RelativeToolTip": "TDMS\\MainWindow.xaml.cs",
               "ViewState": "AQIAACsAAAAAAAAAAAAUwC0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -114,11 +132,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "App.xaml",
-              "DocumentMoniker": "E:\\Visual Studio\\TDMS\\TDMS\\App.xaml",
+              "DocumentMoniker": "D:\\Visual Studio\\TDMS\\TDMS\\App.xaml",
               "RelativeDocumentMoniker": "TDMS\\App.xaml",
-              "ToolTip": "E:\\Visual Studio\\TDMS\\TDMS\\App.xaml",
+              "ToolTip": "D:\\Visual Studio\\TDMS\\TDMS\\App.xaml",
               "RelativeToolTip": "TDMS\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-03T09:16:10.112Z",
@@ -126,11 +144,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "MySQLDB.cs",
-              "DocumentMoniker": "E:\\Visual Studio\\TDMS\\TDMS\\DAL\\MySQLDB.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\TDMS\\TDMS\\DAL\\MySQLDB.cs",
               "RelativeDocumentMoniker": "TDMS\\DAL\\MySQLDB.cs",
-              "ToolTip": "E:\\Visual Studio\\TDMS\\TDMS\\DAL\\MySQLDB.cs",
+              "ToolTip": "D:\\Visual Studio\\TDMS\\TDMS\\DAL\\MySQLDB.cs",
               "RelativeToolTip": "TDMS\\DAL\\MySQLDB.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAUwAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -138,11 +156,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Window2.xaml.cs",
-              "DocumentMoniker": "E:\\Visual Studio\\TDMS\\TDMS\\Window2.xaml.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\TDMS\\TDMS\\Window2.xaml.cs",
               "RelativeDocumentMoniker": "TDMS\\Window2.xaml.cs",
-              "ToolTip": "E:\\Visual Studio\\TDMS\\TDMS\\Window2.xaml.cs",
+              "ToolTip": "D:\\Visual Studio\\TDMS\\TDMS\\Window2.xaml.cs",
               "RelativeToolTip": "TDMS\\Window2.xaml.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAAABgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -150,23 +168,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "TDMS.csproj",
-              "DocumentMoniker": "E:\\Visual Studio\\TDMS\\TDMS\\TDMS.csproj",
+              "DocumentMoniker": "D:\\Visual Studio\\TDMS\\TDMS\\TDMS.csproj",
               "RelativeDocumentMoniker": "TDMS\\TDMS.csproj",
-              "ToolTip": "E:\\Visual Studio\\TDMS\\TDMS\\TDMS.csproj",
+              "ToolTip": "D:\\Visual Studio\\TDMS\\TDMS\\TDMS.csproj",
               "RelativeToolTip": "TDMS\\TDMS.csproj",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAtAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-03T09:13:13.977Z"
+              "WhenOpened": "2024-03-03T09:13:13.977Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "App.xaml.cs",
-              "DocumentMoniker": "E:\\Visual Studio\\TDMS\\TDMS\\App.xaml.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\TDMS\\TDMS\\App.xaml.cs",
               "RelativeDocumentMoniker": "TDMS\\App.xaml.cs",
-              "ToolTip": "E:\\Visual Studio\\TDMS\\TDMS\\App.xaml.cs",
+              "ToolTip": "D:\\Visual Studio\\TDMS\\TDMS\\App.xaml.cs",
               "RelativeToolTip": "TDMS\\App.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
