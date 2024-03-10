@@ -1792,11 +1792,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual Studio\\TDMS\\TDMS\\TDMS.csproj",
+      "projectUniqueName": "E:\\Visual Studio\\TDMS\\TDMS\\TDMS.csproj",
       "projectName": "TDMS",
-      "projectPath": "D:\\Visual Studio\\TDMS\\TDMS\\TDMS.csproj",
+      "projectPath": "E:\\Visual Studio\\TDMS\\TDMS\\TDMS.csproj",
       "packagesPath": "C:\\Users\\32mic\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual Studio\\TDMS\\TDMS\\obj\\",
+      "outputPath": "E:\\Visual Studio\\TDMS\\TDMS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

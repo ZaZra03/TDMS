@@ -1,0 +1,32 @@
+# Compiled binaries
+*.exe
+*.dll
+*.pdb
+*.obj
+
+# User-specific files
+*.user
+*.suo
+*.cache
+
+# NuGet packages
+/packages/
+
+# Build output
+/bin/
+/obj/
+
+# Visual Studio/IDE-specific files
+*.sln
+*.csproj
+
+# Temporary files
+[Tt]emp/
+[Oo]bj/
+
+# User Secrets
+secrets.json
+
+# Logs and debug output
+*.log
+*.debug

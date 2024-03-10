@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using TDMS.DAL;
 
 namespace TDMS
 {
@@ -47,14 +48,33 @@ namespace TDMS
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if (!string.IsNullOrEmpty(txtEmail.Text) && !string.IsNullOrEmpty(passwordBox.Password))
+            string email = txtEmail.Text;
+            string password = passwordBox.Password;
+
+            if (!string.IsNullOrEmpty(email) && !string.IsNullOrEmpty(password))
             {
-                if (txtEmail.Text == "admin" && passwordBox.Password == "admin") {
-                    Window1 objWindow = new();
+                MySQLDB db = new MySQLDB();
+                string accountType = db.CheckAccount(email, password);
+
+                if (accountType == "admin")
+                {
+                    // Admin account found, show Window1
+                    Window1 objWindow = new Window1();
                     this.Close();
                     objWindow.Show();
-                } else MessageBox.Show("No account found.", "Message Box Title", MessageBoxButton.OK, MessageBoxImage.Information);
-
+                }
+                else if (accountType == "user")
+                {
+                    // User account found, show Window2
+                    Window2 objWindow = new Window2();
+                    this.Close();
+                    objWindow.Show();
+                }
+                else
+                {
+                    // No account found
+                    MessageBox.Show("No account found.", "Message Box Title", MessageBoxButton.OK, MessageBoxImage.Information);
+                }
             }
         }
 
