@@ -28,7 +28,7 @@
 
         <StackPanel Orientation="Vertical">
             <Grid Height="60" VerticalAlignment="Top" Margin="0,30,0,0">
-                <TextBlock Text="LOGO HERE" Foreground="White" FontSize="15" TextWrapping="WrapWithOverflow" TextAlignment="Center" Padding="1,0,1,0" VerticalAlignment="Center"/>
+                <TextBlock Text="LOGO HERE" Foreground="White" FontSize="30" TextWrapping="WrapWithOverflow" TextAlignment="Center" Padding="1,0,1,0" VerticalAlignment="Center" FontFamily="Rubik Meidum"/>
             </Grid>
 
             <Menu Height="250"
@@ -46,7 +46,7 @@
 
                 </Menu.ItemsPanel>
 
-                <!--// Main Menu - Home //-->
+                <!--// Main Menu - DASHBOARD //-->
 
                 <MenuItem Header="DASHBOARD"
                           Template="{StaticResource Menu_Template}">
@@ -59,7 +59,7 @@
 
                 </MenuItem>
 
-                <!--// Main Menu - Music //-->
+                <!--// Main Menu - JOBS //-->
 
                 <MenuItem Header="JOBS"
                           Template="{StaticResource Menu_Template}">
@@ -72,7 +72,7 @@
                 </MenuItem>
 
 
-                <!--// Main Menu - Movies //-->
+                <!--// Main Menu - MATERIALS //-->
 
                 <MenuItem Header="MATERIALS"
                           Template="{StaticResource Menu_Template}">
@@ -85,7 +85,7 @@
 
                 </MenuItem>
 
-                <!--// Main Menu - Search //-->
+                <!--// Main Menu - EMPLOYEE //-->
 
                 <MenuItem Header="EMPLOYEE"
                           Template="{StaticResource Menu_Template}">
@@ -98,7 +98,7 @@
 
                 </MenuItem>
 
-                <!--// Main Menu - Folders //-->
+                <!--// Main Menu - SIGN OUT //-->
 
                 <MenuItem Header="SIGN OUT"
                           Template="{StaticResource Menu_Template}"
