@@ -31,5 +31,10 @@ namespace TDMS
             this.Close();
             objWindow.Show();
         }
+
+        private void DataGrid_SelectionChanged()
+        {
+
+        }
     }
 }

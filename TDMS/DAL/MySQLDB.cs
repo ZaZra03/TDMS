@@ -20,10 +20,8 @@ namespace TDMS.DAL
                 connection.Open();
                 using (MySqlCommand command = new(query, connection))
                 {
-                    using (MySqlDataAdapter adapter = new(command))
-                    {
-                        adapter.Fill(dataTable);
-                    }
+                    using MySqlDataAdapter adapter = new(command);
+                    adapter.Fill(dataTable);
                 }
                 connection.Close();
             }
@@ -32,45 +30,39 @@ namespace TDMS.DAL
 
         public void ExecuteNonQuery(string query)
         {
-            using (MySqlConnection connection = new(connectionString))
+            using MySqlConnection connection = new(connectionString);
+            connection.Open();
+            using (MySqlCommand command = new(query, connection))
             {
-                connection.Open();
-                using (MySqlCommand command = new(query, connection))
-                {
-                    command.ExecuteNonQuery();
-                }
-                connection.Close();
+                command.ExecuteNonQuery();
             }
+            connection.Close();
         }
 
-        public string CheckAccount(string email, string password)
+        public string? CheckAccount(string email, string password)
         {
             string queryAdmin = "SELECT COUNT(*) FROM adminAccounts WHERE email = @Email AND password = @Password";
             string queryUser = "SELECT COUNT(*) FROM userAccounts WHERE email = @Email AND password = @Password";
 
-            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            using MySqlConnection connection = new(connectionString);
+            connection.Open();
+            using (MySqlCommand commandAdmin = new(queryAdmin, connection))
             {
-                connection.Open();
-                using (MySqlCommand commandAdmin = new MySqlCommand(queryAdmin, connection))
-                {
-                    commandAdmin.Parameters.AddWithValue("@Email", email);
-                    commandAdmin.Parameters.AddWithValue("@Password", password);
-                    int countAdmin = Convert.ToInt32(commandAdmin.ExecuteScalar());
+                commandAdmin.Parameters.AddWithValue("@Email", email);
+                commandAdmin.Parameters.AddWithValue("@Password", password);
+                int countAdmin = Convert.ToInt32(commandAdmin.ExecuteScalar());
 
-                    if (countAdmin > 0)
-                        return "admin"; // Return "admin" if admin account found
-                }
-
-                using (MySqlCommand commandUser = new MySqlCommand(queryUser, connection))
-                {
-                    commandUser.Parameters.AddWithValue("@Email", email);
-                    commandUser.Parameters.AddWithValue("@Password", password);
-                    int countUser = Convert.ToInt32(commandUser.ExecuteScalar());
-
-                    if (countUser > 0)
-                        return "user"; // Return "user" if user account found
-                }
+                if (countAdmin > 0)
+                    return "admin"; // Return "admin" if admin account found
             }
+
+            using MySqlCommand commandUser = new(queryUser, connection);
+            commandUser.Parameters.AddWithValue("@Email", email);
+            commandUser.Parameters.AddWithValue("@Password", password);
+            int countUser = Convert.ToInt32(commandUser.ExecuteScalar());
+
+            if (countUser > 0)
+                return "user"; // Return "user" if user account found
 
             return null; // Return null if no account found
         }

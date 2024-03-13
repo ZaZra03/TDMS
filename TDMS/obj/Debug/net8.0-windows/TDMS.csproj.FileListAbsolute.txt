@@ -115,3 +115,4 @@ D:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\TDMS.pdb
 D:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\TDMS.genruntimeconfig.cache
 D:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\ref\TDMS.dll
 E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\Template.baml
+E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\Styles\Login.baml
