@@ -1,0 +1,102 @@
+﻿<UserControl x:Class="TDMS.View.ANavigation"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TDMS.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="210">
+    <Grid>
+        <Border CornerRadius="10 0 0 10">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#3AA9AD" Offset="0" />
+                    <GradientStop Color="#3AADA1" Offset="1" />
+                </LinearGradientBrush>
+            </Border.Background>
+
+        </Border>
+
+        <StackPanel Orientation="Vertical">
+            <Grid Height="60" VerticalAlignment="Top" Margin="0,30,0,0">
+                <TextBlock Text="LOGO HERE" Foreground="White" FontSize="30" TextWrapping="WrapWithOverflow" TextAlignment="Center" Padding="1,0,1,0" VerticalAlignment="Center" FontFamily="Rubik Meidum"/>
+            </Grid>
+
+            <Menu Height="250"
+          Background="Transparent"
+          Margin="0,70,0,0">
+
+
+                <Menu.ItemsPanel>
+
+                    <ItemsPanelTemplate>
+
+                        <VirtualizingStackPanel Orientation="Vertical" />
+
+                    </ItemsPanelTemplate>
+
+                </Menu.ItemsPanel>
+
+                <!--// Main Menu - DASHBOARD //-->
+
+                <MenuItem Header="DASHBOARD"
+                  Template="{StaticResource Menu_Template}" Command="{Binding ADashBoardCommand}">
+
+                    <MenuItem.Icon>
+                        <Image Source="pack://application:,,,/TDMS;component/Images/home.png"/>
+                    </MenuItem.Icon>
+
+                </MenuItem>
+
+                <!--// Main Menu - JOBS //-->
+
+                <MenuItem Header="JOBS"
+                  Template="{StaticResource Menu_Template}" Command="{Binding JobsCommand}">
+
+                    <MenuItem.Icon>
+                        <Image Source="pack://application:,,,/TDMS;component/Images/jobs.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+
+
+                <!--// Main Menu - MATERIALS //-->
+
+                <MenuItem Header="MATERIALS" 
+                  Template="{StaticResource Menu_Template}" Command="{Binding MaterialsCommand}">
+
+                    <MenuItem.Icon>
+                        <Image Source="pack://application:,,,/TDMS;component/Images/materials.png"/>
+
+                    </MenuItem.Icon>
+
+                </MenuItem>
+
+                <!--// Main Menu - EMPLOYEE //-->
+
+                <MenuItem Header="EMPLOYEE"
+                  Template="{StaticResource Menu_Template}" Command="{Binding EmployeeCommand}">
+
+                    <MenuItem.Icon>
+                        <Image Source="pack://application:,,,/TDMS;component/Images/employee.png"/>
+
+                    </MenuItem.Icon>
+
+                </MenuItem>
+
+                <!--// Main Menu - SIGN OUT //-->
+
+                <MenuItem Header="SIGN OUT"
+                  Template="{StaticResource Menu_Template}">
+
+                    <MenuItem.Icon>
+                        <Image Source="pack://application:,,,/TDMS;component/Images/signout.png"/>
+
+                    </MenuItem.Icon>
+
+                </MenuItem>
+
+            </Menu>
+
+        </StackPanel>
+    </Grid>
+</UserControl>

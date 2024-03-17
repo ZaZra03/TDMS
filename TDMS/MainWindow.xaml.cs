@@ -59,16 +59,14 @@ namespace TDMS
                 if (accountType == "admin")
                 {
                     // Admin account found, show Window1
-                    Window1 objWindow = new Window1();
+                    Window1 objWindow = new();
                     this.Close();
                     objWindow.Show();
                 }
                 else if (accountType == "user")
                 {
                     // User account found, show Window2
-                    Window2 objWindow = new Window2();
-                    this.Close();
-                    objWindow.Show();
+
                 }
                 else
                 {

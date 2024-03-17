@@ -1,17 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
-using TDMS.View_Model;
+﻿using System.Windows;
 
 namespace TDMS
 {
@@ -27,7 +14,7 @@ namespace TDMS
 
         private void MenuOut_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow objWindow = new MainWindow();
+            MainWindow objWindow = new();
             this.Close();
             objWindow.Show();
         }

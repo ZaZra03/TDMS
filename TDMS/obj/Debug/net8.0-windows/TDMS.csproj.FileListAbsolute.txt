@@ -70,8 +70,6 @@ E:\Visual Studio\TDMS\TDMS\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5
 E:\Visual Studio\TDMS\TDMS\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
 E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\TDMS.csproj.AssemblyReference.cache
 E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\TDMS.csproj.Up2Date
-E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\Window2.g.cs
-E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\Window2.baml
 D:\Visual Studio\TDMS\TDMS\bin\Debug\net8.0-windows\TDMS.exe
 D:\Visual Studio\TDMS\TDMS\bin\Debug\net8.0-windows\TDMS.deps.json
 D:\Visual Studio\TDMS\TDMS\bin\Debug\net8.0-windows\TDMS.runtimeconfig.json
@@ -114,7 +112,6 @@ D:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\refint\TDMS.dll
 D:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\TDMS.pdb
 D:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\TDMS.genruntimeconfig.cache
 D:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\ref\TDMS.dll
-E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\Template.baml
 E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\Styles\Login.baml
 E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\View\ADashBoard.g.cs
 E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
@@ -130,3 +127,8 @@ E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\View\Jobs.baml
 E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\View\Materials.baml
 E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\View\Profile.baml
 E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\View\UDashBoard.baml
+E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\Styles\Template.baml
+E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\View\ANavigation.g.cs
+E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\View\UNavigation.g.cs
+E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\View\ANavigation.baml
+E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\View\UNavigation.baml

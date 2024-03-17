@@ -10,24 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace TDMS
+namespace TDMS.View
 {
     /// <summary>
-    /// Interaction logic for Window2.xaml
+    /// Interaction logic for ANavigation.xaml
     /// </summary>
-    public partial class Window2 : Window
+    public partial class ANavigation : UserControl
     {
-        public Window2()
+        public ANavigation()
         {
             InitializeComponent();
-        }
-        private void MenuOut_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow objWindow = new MainWindow();
-            this.Close();
-            objWindow.Show();
         }
     }
 }
