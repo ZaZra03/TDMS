@@ -22,7 +22,6 @@ namespace TDMS
     {
         public Window1()
         {
-            DataContext = new NavigationVM();
             InitializeComponent();
         }
 

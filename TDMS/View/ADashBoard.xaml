@@ -7,6 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="700" d:DesignWidth="692.3076923076923">
     <Grid>
-        <Border Background="Blue"></Border>
+        <Border Background="White" CornerRadius="0 10 10 0"></Border>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="ADashBoard" VerticalAlignment="Center"/>
     </Grid>
 </UserControl>

@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:TDMS"
+        xmlns:local="clr-namespace:TDMS" xmlns:vm="clr-namespace:TDMS.View_Model"
         mc:Ignorable="d" 
         WindowStartupLocation="CenterScreen" 
         WindowStyle="None"
@@ -11,6 +11,11 @@
         Background="Transparent" 
         Height="700" 
         Width="900">
+
+    <Window.DataContext>
+        <vm:NavigationVM />
+    </Window.DataContext>
+    
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1.2*" />
@@ -50,7 +55,7 @@
                     <!--// Main Menu - DASHBOARD //-->
 
                     <MenuItem Header="DASHBOARD"
-                  Template="{StaticResource Menu_Template}">
+                  Template="{StaticResource Menu_Template}" Command="{Binding ADashBoardCommand}">
 
                         <MenuItem.Icon>
 
@@ -63,7 +68,7 @@
                     <!--// Main Menu - JOBS //-->
 
                     <MenuItem Header="JOBS"
-                  Template="{StaticResource Menu_Template}">
+                  Template="{StaticResource Menu_Template}" Command="{Binding JobsCommand}">
 
                         <MenuItem.Icon>
 
@@ -75,8 +80,8 @@
 
                     <!--// Main Menu - MATERIALS //-->
 
-                    <MenuItem Header="MATERIALS"
-                  Template="{StaticResource Menu_Template}">
+                    <MenuItem Header="MATERIALS" 
+                  Template="{StaticResource Menu_Template}" Command="{Binding MaterialsCommand}">
 
                         <MenuItem.Icon>
 
@@ -89,7 +94,7 @@
                     <!--// Main Menu - EMPLOYEE //-->
 
                     <MenuItem Header="EMPLOYEE"
-                  Template="{StaticResource Menu_Template}">
+                  Template="{StaticResource Menu_Template}" Command="{Binding EmployeeCommand}">
 
                         <MenuItem.Icon>
 
@@ -119,9 +124,7 @@
         </Grid>
 
         <Grid Grid.Column="1">
-            <Border x:Name="myBorder" Background="#FFFFFF" CornerRadius="0 10 10 0">
-                <!-- Your content here -->
-            </Border>
+            <ContentControl Content="{Binding CurrentView}"/>
         </Grid>
 
 
