@@ -116,3 +116,17 @@ D:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\TDMS.genruntimeconfig.cache
 D:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\ref\TDMS.dll
 E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\Template.baml
 E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\Styles\Login.baml
+E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\View\ADashBoard.g.cs
+E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\Styles\DataTemplate.baml
+E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\View\ADashBoard.baml
+E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\View\Employee.g.cs
+E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\View\Jobs.g.cs
+E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\View\Materials.g.cs
+E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\View\Profile.g.cs
+E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\View\UDashBoard.g.cs
+E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\View\Employee.baml
+E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\View\Jobs.baml
+E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\View\Materials.baml
+E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\View\Profile.baml
+E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\View\UDashBoard.baml

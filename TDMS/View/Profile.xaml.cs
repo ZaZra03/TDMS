@@ -10,27 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
-using TDMS.View_Model;
 
-namespace TDMS
+namespace TDMS.View
 {
     /// <summary>
-    /// Interaction logic for Window1.xaml
+    /// Interaction logic for Profile.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class Profile : UserControl
     {
-        public Window1()
+        public Profile()
         {
-            DataContext = new NavigationVM();
             InitializeComponent();
-        }
-
-        private void MenuOut_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow objWindow = new MainWindow();
-            this.Close();
-            objWindow.Show();
         }
     }
 }

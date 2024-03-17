@@ -57,11 +57,5 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>
-
-
-  <ItemGroup>
-    <Folder Include="View Model\" />
-    <Folder Include="View\" />
-  </ItemGroup>
 	
 </Project>

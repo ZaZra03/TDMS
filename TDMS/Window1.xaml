@@ -17,108 +17,113 @@
             <ColumnDefinition Width="4*" />
         </Grid.ColumnDefinitions>
 
-        <Border CornerRadius="10 0 0 10">
-            <Border.Background>
-                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                    <GradientStop Color="#3AA9AD" Offset="0" />
-                    <GradientStop Color="#3AADA1" Offset="1" />
-                </LinearGradientBrush>
-            </Border.Background>
-        </Border>
+        <Grid>
+            <Border CornerRadius="10 0 0 10">
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="#3AA9AD" Offset="0" />
+                        <GradientStop Color="#3AADA1" Offset="1" />
+                    </LinearGradientBrush>
+                </Border.Background>
+            </Border>
 
-        <StackPanel Orientation="Vertical">
-            <Grid Height="60" VerticalAlignment="Top" Margin="0,30,0,0">
-                <TextBlock Text="LOGO HERE" Foreground="White" FontSize="30" TextWrapping="WrapWithOverflow" TextAlignment="Center" Padding="1,0,1,0" VerticalAlignment="Center" FontFamily="Rubik Meidum"/>
-            </Grid>
+            <StackPanel Orientation="Vertical">
+                <Grid Height="60" VerticalAlignment="Top" Margin="0,30,0,0">
+                    <TextBlock Text="LOGO HERE" Foreground="White" FontSize="30" TextWrapping="WrapWithOverflow" TextAlignment="Center" Padding="1,0,1,0" VerticalAlignment="Center" FontFamily="Rubik Meidum"/>
+                </Grid>
 
-            <Menu Height="250"
-                  Background="Transparent"
-                  Margin="0,70,0,0">
-                
-
-                <Menu.ItemsPanel>
-
-                    <ItemsPanelTemplate>
-
-                        <VirtualizingStackPanel Orientation="Vertical" />
-
-                    </ItemsPanelTemplate>
-
-                </Menu.ItemsPanel>
-
-                <!--// Main Menu - DASHBOARD //-->
-
-                <MenuItem Header="DASHBOARD"
-                          Template="{StaticResource Menu_Template}">
-
-                    <MenuItem.Icon>
-
-                        <Image Source="Images/home.png"/>
-
-                    </MenuItem.Icon>
-
-                </MenuItem>
-
-                <!--// Main Menu - JOBS //-->
-
-                <MenuItem Header="JOBS"
-                          Template="{StaticResource Menu_Template}">
-
-                    <MenuItem.Icon>
-
-                        <Image Source="Images/jobs.png"/>
-
-                    </MenuItem.Icon>
-                </MenuItem>
+                <Menu Height="250"
+          Background="Transparent"
+          Margin="0,70,0,0">
 
 
-                <!--// Main Menu - MATERIALS //-->
+                    <Menu.ItemsPanel>
 
-                <MenuItem Header="MATERIALS"
-                          Template="{StaticResource Menu_Template}">
+                        <ItemsPanelTemplate>
 
-                    <MenuItem.Icon>
+                            <VirtualizingStackPanel Orientation="Vertical" />
 
-                        <Image Source="Images/materials.png"/>
+                        </ItemsPanelTemplate>
 
-                    </MenuItem.Icon>
+                    </Menu.ItemsPanel>
 
-                </MenuItem>
+                    <!--// Main Menu - DASHBOARD //-->
 
-                <!--// Main Menu - EMPLOYEE //-->
+                    <MenuItem Header="DASHBOARD"
+                  Template="{StaticResource Menu_Template}">
 
-                <MenuItem Header="EMPLOYEE"
-                          Template="{StaticResource Menu_Template}">
+                        <MenuItem.Icon>
 
-                    <MenuItem.Icon>
+                            <Image Source="Images/home.png"/>
 
-                        <Image Source="Images/employee.png"/>
+                        </MenuItem.Icon>
 
-                    </MenuItem.Icon>
+                    </MenuItem>
 
-                </MenuItem>
+                    <!--// Main Menu - JOBS //-->
 
-                <!--// Main Menu - SIGN OUT //-->
+                    <MenuItem Header="JOBS"
+                  Template="{StaticResource Menu_Template}">
 
-                <MenuItem Header="SIGN OUT"
-                          Template="{StaticResource Menu_Template}"
-                          Click="MenuOut_Click">
+                        <MenuItem.Icon>
 
-                    <MenuItem.Icon>
+                            <Image Source="Images/jobs.png"/>
 
-                        <Image Source="Images/signout.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
 
-                    </MenuItem.Icon>
 
-                </MenuItem>
+                    <!--// Main Menu - MATERIALS //-->
 
-            </Menu>
+                    <MenuItem Header="MATERIALS"
+                  Template="{StaticResource Menu_Template}">
 
-        </StackPanel>
+                        <MenuItem.Icon>
 
-        <Border Background="#FFFFFF" Grid.Column="1" CornerRadius="0 10 10 0">
+                            <Image Source="Images/materials.png"/>
 
-        </Border>
+                        </MenuItem.Icon>
+
+                    </MenuItem>
+
+                    <!--// Main Menu - EMPLOYEE //-->
+
+                    <MenuItem Header="EMPLOYEE"
+                  Template="{StaticResource Menu_Template}">
+
+                        <MenuItem.Icon>
+
+                            <Image Source="Images/employee.png"/>
+
+                        </MenuItem.Icon>
+
+                    </MenuItem>
+
+                    <!--// Main Menu - SIGN OUT //-->
+
+                    <MenuItem Header="SIGN OUT"
+                  Template="{StaticResource Menu_Template}"
+                  Click="MenuOut_Click">
+
+                        <MenuItem.Icon>
+
+                            <Image Source="Images/signout.png"/>
+
+                        </MenuItem.Icon>
+
+                    </MenuItem>
+
+                </Menu>
+
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Column="1">
+            <Border x:Name="myBorder" Background="#FFFFFF" CornerRadius="0 10 10 0">
+                <!-- Your content here -->
+            </Border>
+        </Grid>
+
 
 
     </Grid>

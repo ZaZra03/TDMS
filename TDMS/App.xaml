@@ -9,6 +9,7 @@
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Template.xaml" />
                 <ResourceDictionary Source="Styles/Login.xaml" />
+                <ResourceDictionary Source="Styles/DataTemplate.xaml" />
             </ResourceDictionary.MergedDictionaries>
 
         </ResourceDictionary>

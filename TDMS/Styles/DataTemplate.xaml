@@ -1,0 +1,24 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+                    xmlns:view="clr-namespace:TDMS.View"
+                    xmlns:vm="clr-namespace:TDMS.View_Model">
+
+    <DataTemplate DataType="{x:Type vm:ADashBoardVM}">
+        <view:ADashBoard />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:UDashBoardVM}">
+        <view:UDashBoard />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:EmployeeVM}">
+        <view:Employee />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:JobsVM}">
+        <view:Jobs />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:MaterialsVM}">
+        <view:Materials />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:ProfileVM}">
+        <view:Profile />
+    </DataTemplate>
+</ResourceDictionary>
