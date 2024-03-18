@@ -7,8 +7,10 @@
              mc:Ignorable="d" 
              d:DesignHeight="700" d:DesignWidth="690">
     <Grid>
-        <Border Background="White" CornerRadius="0 10 10 0"></Border>
-        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Jobs" VerticalAlignment="Center"/>
+        <Border Background="White" CornerRadius="0 10 10 0"/>
+        <DataGrid Name="dataGrid" AutoGenerateColumns="True" HorizontalAlignment="Center" Height="500" VerticalAlignment="Center" Width="600" Margin="0,100,0,0" />
+
+ 
 
     </Grid>
 </UserControl>

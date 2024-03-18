@@ -1,5 +1,7 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,6 +25,24 @@ namespace TDMS.View
         public Materials()
         {
             InitializeComponent();
+            LoadData();
+
+        }
+
+        private void LoadData()
+        {
+            string connectionString = "Server=localhost;Database=tdms;Uid=root;Pwd=1234;";
+
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                MySqlCommand command = new MySqlCommand("SELECT * FROM materials", connection);
+                connection.Open();
+
+                DataTable dataTable = new DataTable();
+                dataTable.Load(command.ExecuteReader());
+
+                dataGrid.ItemsSource = dataTable.DefaultView;
+            }
         }
     }
 }
