@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\Visual Studio\\TDMS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|e:\\visual studio\\tdms\\tdms\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|solutionrelative:tdms\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|e:\\visual studio\\tdms\\tdms\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|solutionrelative:tdms\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -77,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|e:\\visual studio\\tdms\\tdms\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|solutionrelative:tdms\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|e:\\visual studio\\tdms\\tdms\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|solutionrelative:tdms\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4934EFA-DD43-4CFC-83C1-10D388898A23}|TDMS\\TDMS.csproj|e:\\visual studio\\tdms\\tdms\\mvvm\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -162,11 +162,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 31,
+          "SelectedChildIndex": 29,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Time.xaml.cs",
               "DocumentMoniker": "E:\\Visual Studio\\TDMS\\TDMS\\View\\Time.xaml.cs",
               "RelativeDocumentMoniker": "TDMS\\View\\Time.xaml.cs",
@@ -179,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Materials.xaml.cs",
               "DocumentMoniker": "E:\\Visual Studio\\TDMS\\TDMS\\View\\Materials.xaml.cs",
               "RelativeDocumentMoniker": "TDMS\\View\\Materials.xaml.cs",
@@ -192,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Jobs.xaml.cs",
               "DocumentMoniker": "E:\\Visual Studio\\TDMS\\TDMS\\View\\Jobs.xaml.cs",
               "RelativeDocumentMoniker": "TDMS\\View\\Jobs.xaml.cs",
@@ -205,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Employee.xaml.cs",
               "DocumentMoniker": "E:\\Visual Studio\\TDMS\\TDMS\\View\\Employee.xaml.cs",
               "RelativeDocumentMoniker": "TDMS\\View\\Employee.xaml.cs",
@@ -230,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ANavigation.xaml",
               "DocumentMoniker": "E:\\Visual Studio\\TDMS\\TDMS\\View\\ANavigation.xaml",
               "RelativeDocumentMoniker": "TDMS\\View\\ANavigation.xaml",
@@ -242,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "UNavigation.xaml.cs",
               "DocumentMoniker": "E:\\Visual Studio\\TDMS\\TDMS\\View\\UNavigation.xaml.cs",
               "RelativeDocumentMoniker": "TDMS\\View\\UNavigation.xaml.cs",
@@ -266,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Time.xaml",
               "DocumentMoniker": "E:\\Visual Studio\\TDMS\\TDMS\\View\\Time.xaml",
               "RelativeDocumentMoniker": "TDMS\\View\\Time.xaml",
@@ -302,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "UNavigation.xaml",
               "DocumentMoniker": "E:\\Visual Studio\\TDMS\\TDMS\\View\\UNavigation.xaml",
               "RelativeDocumentMoniker": "TDMS\\View\\UNavigation.xaml",
@@ -313,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "E:\\Visual Studio\\TDMS\\TDMS\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "TDMS\\MainWindow.xaml.cs",
@@ -359,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Materials.xaml",
               "DocumentMoniker": "E:\\Visual Studio\\TDMS\\TDMS\\View\\Materials.xaml",
               "RelativeDocumentMoniker": "TDMS\\View\\Materials.xaml",
@@ -371,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Jobs.xaml",
               "DocumentMoniker": "E:\\Visual Studio\\TDMS\\TDMS\\View\\Jobs.xaml",
               "RelativeDocumentMoniker": "TDMS\\View\\Jobs.xaml",
@@ -383,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Employee.xaml",
               "DocumentMoniker": "E:\\Visual Studio\\TDMS\\TDMS\\View\\Employee.xaml",
               "RelativeDocumentMoniker": "TDMS\\View\\Employee.xaml",
@@ -395,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "DataTemplate.xaml",
               "DocumentMoniker": "E:\\Visual Studio\\TDMS\\TDMS\\Styles\\DataTemplate.xaml",
               "RelativeDocumentMoniker": "TDMS\\Styles\\DataTemplate.xaml",
@@ -407,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Window1.xaml.cs",
               "DocumentMoniker": "E:\\Visual Studio\\TDMS\\TDMS\\Window1.xaml.cs",
               "RelativeDocumentMoniker": "TDMS\\Window1.xaml.cs",
@@ -478,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "JobsVM.cs",
               "DocumentMoniker": "E:\\Visual Studio\\TDMS\\TDMS\\View Model\\JobsVM.cs",
               "RelativeDocumentMoniker": "TDMS\\View Model\\JobsVM.cs",
@@ -515,18 +515,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 0,
               "Title": "Window1.xaml",
               "DocumentMoniker": "E:\\Visual Studio\\TDMS\\TDMS\\Window1.xaml",
               "RelativeDocumentMoniker": "TDMS\\Window1.xaml",
               "ToolTip": "E:\\Visual Studio\\TDMS\\TDMS\\Window1.xaml",
               "RelativeToolTip": "TDMS\\Window1.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-17T03:34:08.897Z"
+              "WhenOpened": "2024-03-17T03:34:08.897Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "NavigationVM.cs",
               "DocumentMoniker": "E:\\Visual Studio\\TDMS\\TDMS\\View Model\\NavigationVM.cs",
               "RelativeDocumentMoniker": "TDMS\\View Model\\NavigationVM.cs",
@@ -538,19 +539,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "E:\\Visual Studio\\TDMS\\TDMS\\MainWindow.xaml",
               "RelativeDocumentMoniker": "TDMS\\MainWindow.xaml",
-              "ToolTip": "E:\\Visual Studio\\TDMS\\TDMS\\MainWindow.xaml*",
-              "RelativeToolTip": "TDMS\\MainWindow.xaml*",
+              "ToolTip": "E:\\Visual Studio\\TDMS\\TDMS\\MainWindow.xaml",
+              "RelativeToolTip": "TDMS\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-17T03:06:08.302Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "MySQLDB.cs",
               "DocumentMoniker": "E:\\Visual Studio\\TDMS\\TDMS\\DAL\\MySQLDB.cs",
               "RelativeDocumentMoniker": "TDMS\\DAL\\MySQLDB.cs",
@@ -575,7 +576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "RelayCommand.cs",
               "DocumentMoniker": "E:\\Visual Studio\\TDMS\\TDMS\\MVVM\\RelayCommand.cs",
               "RelativeDocumentMoniker": "TDMS\\MVVM\\RelayCommand.cs",
