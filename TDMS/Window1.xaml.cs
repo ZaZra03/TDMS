@@ -8,10 +8,10 @@ namespace TDMS
     /// </summary>
     public partial class Window1 : Window
     {
-        public Window1(NavigationVM viewmodel)
+        public Window1(string accountType)
         {
             InitializeComponent();
-            DataContext = viewmodel;
+            DataContext = new NavigationVM(accountType, this);
         }
 
         private void MenuOut_Click(object sender, RoutedEventArgs e)

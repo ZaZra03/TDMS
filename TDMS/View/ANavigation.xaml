@@ -20,14 +20,13 @@
         </Border>
 
         <StackPanel Orientation="Vertical">
-            <Grid Height="60" VerticalAlignment="Top" Margin="0,30,0,0">
-                <TextBlock Text="LOGO HERE" Foreground="White" FontSize="30" TextWrapping="WrapWithOverflow" TextAlignment="Center" Padding="1,0,1,0" VerticalAlignment="Center" FontFamily="Rubik Meidum"/>
+            <Grid Height="200" VerticalAlignment="Top">
+                <Image Source="/Images/logo.png" Height="200" Width="200"></Image>
             </Grid>
 
             <Menu Height="310"
-          Background="Transparent"
-          Margin="0,70,0,0">
-
+                  Background="Transparent"
+                  Margin="0,10,0,0">
 
                 <Menu.ItemsPanel>
 
@@ -100,7 +99,7 @@
                 <!--// Main Menu - SIGN OUT //-->
 
                 <MenuItem Header="SIGN OUT"
-                  Template="{StaticResource Menu_Template}">
+                  Template="{StaticResource Menu_Template}" Command="{Binding SignOutCommand}">
 
                     <MenuItem.Icon>
                         <Image Source="pack://application:,,,/TDMS;component/Images/signout.png"/>

@@ -49,14 +49,14 @@ public class MainWindowVM : ViewModelBase
         if (accountType == "admin")
         {
             // Admin account found, show Window1
-            Window1 objWindow = new(new NavigationVM(accountType));
+            Window1 objWindow = new(accountType);
             objWindow.Show();
             // Close the current window
             App.Current.MainWindow.Close();
         }
         else if (accountType == "user")
         {
-            Window1 objWindow = new(new NavigationVM(accountType));
+            Window1 objWindow = new(accountType);
             objWindow.Show();
             // Close the current window
             App.Current.MainWindow.Close();

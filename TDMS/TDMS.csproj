@@ -12,6 +12,7 @@
     <None Remove="Images\employee.png" />
     <None Remove="Images\home.png" />
     <None Remove="Images\jobs.png" />
+    <None Remove="Images\logo.png" />
     <None Remove="Images\materials.png" />
     <None Remove="Images\profile.png" />
     <None Remove="Images\signout.png" />
@@ -19,6 +20,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Images\logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Images\profile.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>

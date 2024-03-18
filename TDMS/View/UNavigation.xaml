@@ -18,11 +18,14 @@
         </Border>
 
         <StackPanel Orientation="Vertical">
-            <Grid Height="60" VerticalAlignment="Top" Margin="0,30,0,0">
-                <TextBlock Text="LOGO HERE" Foreground="White" FontSize="30" TextWrapping="WrapWithOverflow" TextAlignment="Center" Padding="1,0,1,0" VerticalAlignment="Center" FontFamily="Rubik Medium"/>
+            <Grid Height="200" VerticalAlignment="Top">
+                <Image Source="/Images/logo.png" Height="200" Width="200"></Image>
             </Grid>
 
-            <Menu Height="300" Background="Transparent" Margin="0,70,0,0">
+            <Menu Height="310"
+                  Background="Transparent"
+                  Margin="0,10,0,0">
+                
                 <Menu.ItemsPanel>
                     <ItemsPanelTemplate>
                         <VirtualizingStackPanel Orientation="Vertical"/>

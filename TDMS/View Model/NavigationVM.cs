@@ -1,4 +1,5 @@
-﻿using System.Windows.Input;
+﻿using System.Windows;
+using System.Windows.Input;
 using TDMS.MVVM;
 using TDMS.View;
 
@@ -20,6 +21,12 @@ namespace TDMS.View_Model
             set { _currentView = value; OnPropertyChanged(); }
         }
 
+        private readonly Window1 _window;
+        public object? Window
+        {
+            get { return _window; }
+        }
+
         public ICommand ADashBoardCommand { get; set; }
         public ICommand UDashBoardCommand { get; set; }
         public ICommand JobsCommand { get; set; }
@@ -27,6 +34,18 @@ namespace TDMS.View_Model
         public ICommand EmployeeCommand { get; set; }
         public ICommand ProfileCommand { get; set; }
         public ICommand TimeCommand { get; set; }
+        public RelayCommand SignOutCommand => new(_ => SignOut());
+
+        private void SignOut()
+        {
+            // Your sign out logic here
+            MainWindow objWindow = new();
+            _window.Close();
+            objWindow.Show();
+
+        }
+
+
 
         private void ADashBoard(object obj) => CurrentView = new ADashBoardVM();
         private void Jobs(object obj) => CurrentView = new JobsVM();
@@ -36,8 +55,9 @@ namespace TDMS.View_Model
         private void Profile(object obj) => CurrentView = new ProfileVM();
         private void UDashBoard(object obj) => CurrentView = new UDashBoardVM();
 
-        public NavigationVM(string AccountType)
+        public NavigationVM(string AccountType, Window1 window)
         {
+            _window = window;
             ADashBoardCommand = new RelayCommand(ADashBoard);
             JobsCommand = new RelayCommand(Jobs);
             MaterialsCommand = new RelayCommand(Materials);
