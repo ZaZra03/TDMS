@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TDMS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cfbfb677dc14900c27c3ba95f8bc9ed67cac64cf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f48cee1adabd5799bd7d7a2db406d12dd59eba22")]
 [assembly: System.Reflection.AssemblyProductAttribute("TDMS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TDMS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

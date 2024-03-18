@@ -10,8 +10,8 @@ namespace TDMS.View_Model
 {
     class NavigationVM : ViewModelBase
     {
-        private object _currentView;
-        public object CurrentView
+        private object? _currentView;
+        public object? CurrentView
         {
             get { return _currentView; }
             set { _currentView = value; OnPropertyChanged(); }
@@ -23,6 +23,7 @@ namespace TDMS.View_Model
         public ICommand MaterialsCommand { get; set; }
         public ICommand EmployeeCommand { get; set; }
         public ICommand ProfileCommand { get; set; }
+        public ICommand TimeCommand { get; set; }
 
         private void ADashBoard(object obj) => CurrentView = new ADashBoardVM();
         private void UDashBoard(object obj) => CurrentView = new UDashBoardVM();
@@ -30,6 +31,7 @@ namespace TDMS.View_Model
         private void Materials(object obj) => CurrentView = new MaterialsVM();
         private void Employee(object obj) => CurrentView = new EmployeeVM();
         private void Profile(object obj) => CurrentView = new ProfileVM();
+        private void Time(object obj) => CurrentView = new TimeVM();
         public NavigationVM()
         {
             ADashBoardCommand = new RelayCommand(ADashBoard);
@@ -38,8 +40,9 @@ namespace TDMS.View_Model
             MaterialsCommand = new RelayCommand(Materials);
             EmployeeCommand = new RelayCommand(Employee);
             ProfileCommand = new RelayCommand(Profile);
+            TimeCommand = new RelayCommand(Time);
 
-            CurrentView = new ADashBoardVM();
+            //CurrentView = new ADashBoardVM();
         }
     }
 }

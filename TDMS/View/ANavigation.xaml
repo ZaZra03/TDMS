@@ -71,6 +71,18 @@
 
                 </MenuItem>
 
+                <!--// Main Menu - MATERIALS //-->
+
+                <MenuItem Header="TIME CARD" 
+                  Template="{StaticResource Menu_Template}" Command="{Binding MaterialsCommand}">
+
+                    <MenuItem.Icon>
+                        <Image Source="pack://application:,,,/TDMS;component/Images/time.png"/>
+
+                    </MenuItem.Icon>
+
+                </MenuItem>
+
                 <!--// Main Menu - EMPLOYEE //-->
 
                 <MenuItem Header="EMPLOYEE"
