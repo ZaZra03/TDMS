@@ -1,15 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Input;
+﻿using System.Windows.Input;
 using TDMS.MVVM;
+using TDMS.View;
 
 namespace TDMS.View_Model
 {
-    class NavigationVM : ViewModelBase
+    public class NavigationVM : ViewModelBase
     {
+        private object? _navView;
+        public object? NavView
+        {
+            get { return _navView; }
+            set { _navView = value; OnPropertyChanged(); }
+        }
+
         private object? _currentView;
         public object? CurrentView
         {
@@ -26,21 +29,34 @@ namespace TDMS.View_Model
         public ICommand TimeCommand { get; set; }
 
         private void ADashBoard(object obj) => CurrentView = new ADashBoardVM();
-        private void UDashBoard(object obj) => CurrentView = new UDashBoardVM();
         private void Jobs(object obj) => CurrentView = new JobsVM();
         private void Materials(object obj) => CurrentView = new MaterialsVM();
         private void Employee(object obj) => CurrentView = new EmployeeVM();
-        private void Profile(object obj) => CurrentView = new ProfileVM();
         private void Time(object obj) => CurrentView = new TimeVM();
-        public NavigationVM()
+        private void Profile(object obj) => CurrentView = new ProfileVM();
+        private void UDashBoard(object obj) => CurrentView = new UDashBoardVM();
+
+        public NavigationVM(string AccountType)
         {
             ADashBoardCommand = new RelayCommand(ADashBoard);
-            UDashBoardCommand = new RelayCommand(UDashBoard);
             JobsCommand = new RelayCommand(Jobs);
             MaterialsCommand = new RelayCommand(Materials);
             EmployeeCommand = new RelayCommand(Employee);
-            ProfileCommand = new RelayCommand(Profile);
             TimeCommand = new RelayCommand(Time);
+            ProfileCommand = new RelayCommand(Profile);
+            UDashBoardCommand = new RelayCommand(UDashBoard);
+
+            if (AccountType == "admin")
+            {
+                CurrentView = new ADashBoardVM();
+                NavView = new ANavigation();
+            }
+            else if (AccountType == "user")
+            {
+                CurrentView = new UDashBoardVM();
+                NavView = new UNavigation();
+
+            }
 
             //CurrentView = new ADashBoardVM();
         }

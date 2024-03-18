@@ -3,7 +3,6 @@ using System.Windows;
 using System.Windows.Input;
 using TDMS.DAL;
 using TDMS.MVVM;
-using TDMS;
 
 namespace TDMS.View_Model;
 public class MainWindowVM : ViewModelBase
@@ -50,15 +49,17 @@ public class MainWindowVM : ViewModelBase
         if (accountType == "admin")
         {
             // Admin account found, show Window1
-            Window1 objWindow = new();
+            Window1 objWindow = new(new NavigationVM(accountType));
             objWindow.Show();
             // Close the current window
             App.Current.MainWindow.Close();
         }
         else if (accountType == "user")
         {
-            // User account found, show Window2
-            // Implement as needed
+            Window1 objWindow = new(new NavigationVM(accountType));
+            objWindow.Show();
+            // Close the current window
+            App.Current.MainWindow.Close();
         }
         else
         {

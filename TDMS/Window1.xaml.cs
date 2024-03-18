@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using TDMS.View_Model;
 
 namespace TDMS
 {
@@ -7,9 +8,10 @@ namespace TDMS
     /// </summary>
     public partial class Window1 : Window
     {
-        public Window1()
+        public Window1(NavigationVM viewmodel)
         {
             InitializeComponent();
+            DataContext = viewmodel;
         }
 
         private void MenuOut_Click(object sender, RoutedEventArgs e)

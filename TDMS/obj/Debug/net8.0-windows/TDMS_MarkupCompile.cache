@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 E:\Visual Studio\TDMS\TDMS\App.xaml
-13-1836291924
+14-1927252428
 
-271537153
+29608826767
 2061444934040
-MainWindow.xaml;Styles\DataTemplate.xaml;Styles\Login.xaml;Styles\Template.xaml;View\ADashBoard.xaml;View\ANavigation.xaml;View\Employee.xaml;View\Jobs.xaml;View\Materials.xaml;View\Profile.xaml;View\UDashBoard.xaml;View\UNavigation.xaml;Window1.xaml;
+MainWindow.xaml;Styles\DataTemplate.xaml;Styles\Login.xaml;Styles\Template.xaml;View\ADashBoard.xaml;View\ANavigation.xaml;View\Employee.xaml;View\Jobs.xaml;View\Materials.xaml;View\Profile.xaml;View\Time.xaml;View\UDashBoard.xaml;View\UNavigation.xaml;Window1.xaml;
 
 False
 

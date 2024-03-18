@@ -3,9 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:TDMS.View"
+             xmlns:view_model="clr-namespace:TDMS.View_Model" 
+             d:DataContext="{d:DesignInstance Type=view_model:NavigationVM}"
              mc:Ignorable="d" 
              d:DesignHeight="700" d:DesignWidth="210">
+
     <Grid>
         <Border CornerRadius="10 0 0 10">
             <Border.Background>
@@ -22,7 +24,7 @@
                 <TextBlock Text="LOGO HERE" Foreground="White" FontSize="30" TextWrapping="WrapWithOverflow" TextAlignment="Center" Padding="1,0,1,0" VerticalAlignment="Center" FontFamily="Rubik Meidum"/>
             </Grid>
 
-            <Menu Height="250"
+            <Menu Height="310"
           Background="Transparent"
           Margin="0,70,0,0">
 

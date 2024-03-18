@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TDMS" 
-        xmlns:vm="clr-namespace:TDMS.View_Model"
+        xmlns:vm="clr-namespace:TDMS.View_Model" 
         mc:Ignorable="d" 
         WindowStartupLocation="CenterScreen" 
         WindowStyle="None"
@@ -13,10 +13,6 @@
         Height="700" 
         Width="900">
 
-    <Window.DataContext>
-        <vm:NavigationVM />
-    </Window.DataContext>
-    
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="210" />
@@ -24,7 +20,7 @@
         </Grid.ColumnDefinitions>
 
         <Grid>
-
+            <ContentControl Content="{Binding NavView}"/>
         </Grid>
 
         <Grid Grid.Column="1">
