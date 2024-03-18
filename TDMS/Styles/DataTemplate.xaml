@@ -21,4 +21,7 @@
     <DataTemplate DataType="{x:Type vm:ProfileVM}">
         <view:Profile />
     </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:TimeVM}">
+        <view:Time />
+    </DataTemplate>
 </ResourceDictionary>
