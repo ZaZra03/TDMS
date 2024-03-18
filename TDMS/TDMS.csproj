@@ -11,12 +11,19 @@
   <ItemGroup>
     <None Remove="Images\employee.png" />
     <None Remove="Images\home.png" />
+    <None Remove="Images\icon.png" />
     <None Remove="Images\jobs.png" />
     <None Remove="Images\logo.png" />
     <None Remove="Images\materials.png" />
     <None Remove="Images\profile.png" />
     <None Remove="Images\signout.png" />
     <None Remove="Images\time.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
   <ItemGroup>

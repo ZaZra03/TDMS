@@ -11,7 +11,8 @@
         AllowsTransparency="True" 
         Background="Transparent" 
         Height="700" 
-        Width="900">
+        Width="900"
+        Icon="/Images/icon.png">>
 
     <Grid>
         <Grid.ColumnDefinitions>
