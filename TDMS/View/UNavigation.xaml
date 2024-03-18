@@ -57,7 +57,7 @@
 
 
                 <MenuItem Header="SIGN OUT"
-                  Template="{StaticResource Menu_Template}">
+                  Template="{StaticResource Menu_Template}" Command="{Binding SignOutCommand}">
 
                     <MenuItem.Icon>
 

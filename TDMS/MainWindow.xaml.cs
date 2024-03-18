@@ -22,6 +22,42 @@ namespace TDMS
         {
             InitializeComponent();
         }
+        private void SignIn(string email, string password)
+        {
+            MySQLDB db = new MySQLDB();
+            string accountType = db.CheckAccount(email, password);
+
+            if (accountType == "admin" || accountType == "user")
+            {
+                // Admin or user account found, show Window1
+                Window1 objWindow = new Window1(accountType);
+                objWindow.Show();
+
+                // Close the current window
+                this.Close();
+            }
+            else
+            {
+                // No account found
+                MessageBox.Show("No account found.", "Message Box Title", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+        }
+
+        private void SignInButton_Click(object sender, RoutedEventArgs e)
+        {
+            string email = EmailTextBox.Text;
+            string password = PasswordTextBox.Password;
+
+            if (!string.IsNullOrWhiteSpace(email) && !string.IsNullOrWhiteSpace(password))
+            {
+                SignIn(email, password);
+            }
+            else
+            {
+                // Handle empty email or password
+                MessageBox.Show("Please enter both email and password.", "Message Box Title", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+        }
 
         private void Border_MouseDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
@@ -36,7 +72,7 @@ namespace TDMS
 
         private void PasswordBox_PasswordChanged(object sender, RoutedEventArgs e)
         {
-            if (!string.IsNullOrEmpty(passwordBox.Password) && passwordBox.Password.Length > 0)
+            if (!string.IsNullOrEmpty(PasswordTextBox.Password) && PasswordTextBox.Password.Length > 0)
                 textPassword.Visibility = Visibility.Collapsed;
             else
                 textPassword.Visibility = Visibility.Visible;
@@ -44,12 +80,12 @@ namespace TDMS
 
         private void TextPassword_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            passwordBox.Focus();
+            PasswordTextBox.Focus();
         }
 
         private void TxtEmail_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
         {
-            if (!string.IsNullOrEmpty(txtEmail.Text) && txtEmail.Text.Length > 0)
+            if (!string.IsNullOrEmpty(EmailTextBox.Text) && EmailTextBox.Text.Length > 0)
                 textEmail.Visibility = Visibility.Collapsed;
             else
                 textEmail.Visibility = Visibility.Visible;
@@ -57,7 +93,7 @@ namespace TDMS
 
         private void TextEmail_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            txtEmail.Focus();
+            EmailTextBox.Focus();
         }
 
     }

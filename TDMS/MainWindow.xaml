@@ -4,7 +4,6 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TDMS"
-        xmlns:vm="clr-namespace:TDMS.View_Model" 
         xmlns:mvvm="clr-namespace:TDMS.MVVM"
         mc:Ignorable="d" 
         WindowStartupLocation="CenterScreen" 
@@ -14,10 +13,6 @@
         Height="500" 
         Width="800">
 
-    <Window.DataContext>
-        <vm:MainWindowVM/>
-    </Window.DataContext>
-    
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
@@ -57,7 +52,7 @@
 
                         <Image Source="/Images/Email.png" Height="20" />
                         <TextBlock x:Name="textEmail" MouseDown="TextEmail_MouseDown" Text="Email" Style="{StaticResource textHint}"/>
-                        <TextBox Name="txtEmail" TextChanged="TxtEmail_TextChanged" Style="{StaticResource textBox}" Text="{Binding Email, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                        <TextBox Name="EmailTextBox" TextChanged="TxtEmail_TextChanged" Style="{StaticResource textBox}"/>
                     </Grid>
                 </Border>
 
@@ -70,11 +65,11 @@
 
                         <Image Source="/Images/Lock.png" Height="20" />
                         <TextBlock x:Name="textPassword" MouseDown="TextPassword_MouseDown" Text="Password" Style="{StaticResource textHint}" />
-                        <PasswordBox x:Name="passwordBox" PasswordChanged="PasswordBox_PasswordChanged" Style="{StaticResource textBox}" mvvm:PasswordHelper.BoundPassword="{Binding Password, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                        <PasswordBox x:Name="PasswordTextBox" PasswordChanged="PasswordBox_PasswordChanged" Style="{StaticResource textBox}" />
                     </Grid>
                 </Border>
 
-                <Button Content="Sign In" Command="{Binding SignInCommand}" Style="{StaticResource mainButton}" />
+                <Button Content="Sign In" Click="SignInButton_Click" Style="{StaticResource mainButton}" />
             </StackPanel>
         </Border>
 

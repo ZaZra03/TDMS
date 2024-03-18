@@ -39,6 +39,7 @@ namespace TDMS.View_Model
         private void SignOut()
         {
             // Your sign out logic here
+            
             MainWindow objWindow = new();
             _window.Close();
             objWindow.Show();
