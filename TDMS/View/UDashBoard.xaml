@@ -9,5 +9,8 @@
     <Grid>
         <Border Background="White" CornerRadius="0 10 10 0"></Border>
         <DataGrid Name="dataGrid" AutoGenerateColumns="True" HorizontalAlignment="Center" Height="396" VerticalAlignment="Top" Width="600" Margin="0,259,0,0" />
+        <Grid>
+            <Image Source="/Images/dashboardu.png" Margin="55,-220,55,220"/>
+        </Grid>
     </Grid>
 </UserControl>

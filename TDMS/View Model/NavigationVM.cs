@@ -34,6 +34,7 @@ namespace TDMS.View_Model
         public ICommand EmployeeCommand { get; set; }
         public ICommand ProfileCommand { get; set; }
         public ICommand TimeCommand { get; set; }
+        public ICommand TicketCommand { get; set; }
         public RelayCommand SignOutCommand => new(_ => SignOut());
 
         private void SignOut()
@@ -55,6 +56,7 @@ namespace TDMS.View_Model
         private void Time(object obj) => CurrentView = new TimeVM();
         private void Profile(object obj) => CurrentView = new ProfileVM();
         private void UDashBoard(object obj) => CurrentView = new UDashBoardVM();
+        private void Ticket(object obj) => CurrentView = new TicketVM();
 
         public NavigationVM(string AccountType, Window1 window)
         {
@@ -66,6 +68,7 @@ namespace TDMS.View_Model
             TimeCommand = new RelayCommand(Time);
             ProfileCommand = new RelayCommand(Profile);
             UDashBoardCommand = new RelayCommand(UDashBoard);
+            TicketCommand = new RelayCommand(Ticket);
 
             if (AccountType == "admin")
             {

@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="TDMS.View.Profile"
+﻿<UserControl x:Class="TDMS.View.Ticket"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -8,7 +8,7 @@
              d:DesignHeight="700" d:DesignWidth="690">
     <Grid>
         <Border Background="White" CornerRadius="0 10 10 0"></Border>
-        <Image Source="/Images/ProfileU.png"/>
+        <Image Source="/Images/Ticket.png"/>
 
     </Grid>
 </UserControl>

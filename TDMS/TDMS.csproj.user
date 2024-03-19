@@ -25,6 +25,9 @@
     <Compile Update="View\Profile.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\Ticket.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\Time.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -64,6 +67,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\Profile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Ticket.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\Time.xaml">

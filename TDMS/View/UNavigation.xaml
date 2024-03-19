@@ -54,6 +54,17 @@
 
                 </MenuItem>
 
+                <MenuItem Header="TICKET"
+                  Template="{StaticResource Menu_Template}" Command="{Binding TicketCommand}">
+
+                    <MenuItem.Icon>
+
+                        <Image Source="pack://application:,,,/TDMS;component/Images/contact.png"/>
+
+                    </MenuItem.Icon>
+
+                </MenuItem>
+
 
 
                 <MenuItem Header="SIGN OUT"

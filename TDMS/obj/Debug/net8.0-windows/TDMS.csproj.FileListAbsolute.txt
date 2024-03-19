@@ -134,3 +134,5 @@ E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\View\ANavigation.baml
 E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\View\UNavigation.baml
 E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\View\Time.g.cs
 E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\View\Time.baml
+E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\View\Ticket.g.cs
+E:\Visual Studio\TDMS\TDMS\obj\Debug\net8.0-windows\View\Ticket.baml

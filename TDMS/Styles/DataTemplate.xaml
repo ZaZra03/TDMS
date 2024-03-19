@@ -24,4 +24,7 @@
     <DataTemplate DataType="{x:Type vm:TimeVM}">
         <view:Time />
     </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:TicketVM}">
+        <view:Ticket />
+    </DataTemplate>
 </ResourceDictionary>
