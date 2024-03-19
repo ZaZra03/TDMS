@@ -33,7 +33,7 @@
                 </Menu.ItemsPanel>
 
                 <MenuItem Header="DASHBOARD"
-                  Template="{StaticResource Menu_Template}">
+                  Template="{StaticResource Menu_Template}" Command="{Binding UDashBoardCommand}">
 
                     <MenuItem.Icon>
 
@@ -44,7 +44,7 @@
                 </MenuItem>
 
                 <MenuItem Header="PROFILE"
-                  Template="{StaticResource Menu_Template}">
+                  Template="{StaticResource Menu_Template}" Command="{Binding ProfileCommand}">
 
                     <MenuItem.Icon>
 

@@ -6,8 +6,7 @@
              xmlns:local="clr-namespace:TDMS.View"
              mc:Ignorable="d" 
              d:DesignHeight="700" d:DesignWidth="690">
-    <Grid>
-        <Border Background="White" CornerRadius="0 10 10 0"></Border>
-        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="ADashBoard" VerticalAlignment="Center"/>
+    <Grid Background="White">
+        <Image Source="/Images/DashBoardA.png"/>
     </Grid>
 </UserControl>
